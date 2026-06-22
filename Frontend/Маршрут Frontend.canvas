@@ -1,0 +1,38 @@
+{
+	"nodes":[
+		{"id":"g3","type":"group","x":-20,"y":640,"width":1240,"height":290,"color":"4","label":"Практика · собеседование · ресурсы"},
+		{"id":"g1","type":"group","x":880,"y":-640,"width":340,"height":620,"color":"2","label":"Фундамент · Intern–Junior"},
+		{"id":"g2","type":"group","x":880,"y":80,"width":340,"height":510,"color":"5","label":"Профи · Junior+–Middle"},
+		{"id":"n-proj","type":"file","file":"Frontend/Практика/Frontend-проекты.md","x":0,"y":690,"width":290,"height":85},
+		{"id":"n-plan","type":"file","file":"Frontend/Практика/План обучения.md","x":300,"y":690,"width":290,"height":85},
+		{"id":"n-interview","type":"file","file":"Frontend/Практика/Подготовка к собеседованию.md","x":600,"y":690,"width":290,"height":85},
+		{"id":"n-algo","type":"file","file":"Frontend/Темы/Алгоритмы и структуры данных.md","x":900,"y":690,"width":290,"height":85},
+		{"id":"n-check","type":"file","file":"Frontend/Frontend — чеклист навыков.md","x":0,"y":795,"width":290,"height":85},
+		{"id":"n-res","type":"file","file":"Frontend/Ресурсы — Frontend.md","x":300,"y":795,"width":290,"height":85},
+		{"id":"n-hub","type":"file","file":"Frontend/Frontend Roadmap.md","x":600,"y":795,"width":290,"height":85,"color":"6"},
+		{"id":"n-html","type":"file","file":"Frontend/Темы/HTML и доступность.md","x":900,"y":-600,"width":300,"height":85},
+		{"id":"n-js","type":"file","file":"Frontend/Темы/JavaScript.md","x":900,"y":-400,"width":300,"height":85},
+		{"id":"n-git","type":"file","file":"Frontend/Темы/Git и инструменты.md","x":900,"y":-300,"width":300,"height":85},
+		{"id":"n-net","type":"file","file":"Frontend/Темы/Сеть и HTTP.md","x":900,"y":-200,"width":300,"height":85},
+		{"id":"n-css","type":"file","file":"Frontend/Темы/CSS и вёрстка.md","x":900,"y":-500,"width":300,"height":85},
+		{"id":"n-react","type":"file","file":"Frontend/Темы/React и экосистема.md","x":900,"y":120,"width":300,"height":85},
+		{"id":"n-ts","type":"file","file":"Frontend/Темы/TypeScript.md","x":900,"y":220,"width":300,"height":85},
+		{"id":"n-test","type":"file","file":"Frontend/Темы/Тестирование.md","x":900,"y":320,"width":300,"height":85},
+		{"id":"n-arch","type":"file","file":"Frontend/Темы/Архитектура и паттерны.md","x":900,"y":420,"width":300,"height":85},
+		{"id":"title","type":"text","text":"# 🗺️ Frontend Roadmap\n**Intern → Middle**\nСтарт здесь ↓","x":0,"y":-530,"width":300,"height":130,"color":"6"},
+		{"id":"s0","type":"file","file":"Frontend/Этапы/Frontend · Intern.md","x":0,"y":-370,"width":300,"height":90,"color":"4"},
+		{"id":"s1","type":"file","file":"Frontend/Этапы/Frontend · Junior.md","x":0,"y":-230,"width":300,"height":90,"color":"4"},
+		{"id":"s2","type":"file","file":"Frontend/Этапы/Frontend · Junior+.md","x":0,"y":-90,"width":300,"height":90,"color":"4"},
+		{"id":"s3","type":"file","file":"Frontend/Этапы/Frontend · Middle.md","x":0,"y":50,"width":300,"height":90,"color":"5"}
+	],
+	"edges":[
+		{"id":"e0","fromNode":"title","fromSide":"bottom","toNode":"s0","toSide":"top"},
+		{"id":"e1","fromNode":"s0","fromSide":"bottom","toNode":"s1","toSide":"top"},
+		{"id":"e2","fromNode":"s1","fromSide":"bottom","toNode":"s2","toSide":"top"},
+		{"id":"e3","fromNode":"s2","fromSide":"bottom","toNode":"s3","toSide":"top"},
+		{"id":"e4","fromNode":"s0","fromSide":"right","toNode":"g1","toSide":"left","label":"темы старта"},
+		{"id":"e5","fromNode":"s1","fromSide":"right","toNode":"n-react","toSide":"left","label":"React"},
+		{"id":"e6","fromNode":"s2","fromSide":"right","toNode":"g2","toSide":"left","label":"углубление"},
+		{"id":"e7","fromNode":"s3","fromSide":"bottom","toNode":"g3","toSide":"top","label":"всё время"}
+	]
+}

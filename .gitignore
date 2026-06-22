@@ -1,0 +1,8 @@
+# Локальное состояние рабочего пространства Obsidian
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Кэш и временные файлы
+.obsidian/cache
+.trash/
+.DS_Store

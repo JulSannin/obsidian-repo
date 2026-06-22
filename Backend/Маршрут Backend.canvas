@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"g2","type":"group","x":-20,"y":320,"width":940,"height":260,"color":"4","label":"Практика · ресурсы"},
+		{"id":"g1","type":"group","x":580,"y":-460,"width":340,"height":560,"color":"2","label":"Темы · Intern–Junior"},
+		{"id":"n-db","type":"file","file":"Backend/Темы/Базы данных и SQL.md","x":600,"y":-320,"width":300,"height":85},
+		{"id":"n-res","type":"file","file":"Backend/Ресурсы — Backend.md","x":300,"y":370,"width":290,"height":85},
+		{"id":"n-check","type":"file","file":"Backend/Backend — чеклист навыков.md","x":600,"y":370,"width":290,"height":85},
+		{"id":"n-hub","type":"file","file":"Backend/Backend Roadmap.md","x":0,"y":475,"width":290,"height":85,"color":"6"},
+		{"id":"n-master","type":"file","file":"Frontend/Практика/Карта обучения.md","x":300,"y":475,"width":290,"height":85,"color":"6"},
+		{"id":"n-proj","type":"file","file":"Backend/Практика/Backend-проекты.md","x":0,"y":370,"width":290,"height":85},
+		{"id":"n-api","type":"file","file":"Backend/Темы/REST API на сервере.md","x":600,"y":-220,"width":300,"height":85},
+		{"id":"n-auth","type":"file","file":"Backend/Темы/Аутентификация и безопасность.md","x":600,"y":-120,"width":300,"height":85},
+		{"id":"n-arch","type":"file","file":"Backend/Темы/Серверная архитектура и DevOps.md","x":600,"y":-20,"width":300,"height":85},
+		{"id":"n-node","type":"file","file":"Backend/Темы/Node.js.md","x":600,"y":-420,"width":300,"height":85},
+		{"id":"title","type":"text","text":"# ⚙️ Backend Roadmap\n**Intern → Junior**\nСтарт здесь ↓","x":-10,"y":-457,"width":300,"height":120,"color":"6"},
+		{"id":"s0","type":"file","file":"Backend/Этапы/Backend · Intern.md","x":-10,"y":-307,"width":300,"height":90,"color":"4"},
+		{"id":"s1","type":"file","file":"Backend/Этапы/Backend · Junior.md","x":-10,"y":-167,"width":300,"height":90,"color":"5"}
+	],
+	"edges":[
+		{"id":"e0","fromNode":"title","fromSide":"bottom","toNode":"s0","toSide":"top"},
+		{"id":"e1","fromNode":"s0","fromSide":"bottom","toNode":"s1","toSide":"top"},
+		{"id":"e2","fromNode":"s0","fromSide":"right","toNode":"g1","toSide":"left","label":"темы"},
+		{"id":"e3","fromNode":"s1","fromSide":"bottom","toNode":"g2","toSide":"top","label":"практика"}
+	]
+}
