@@ -56,6 +56,14 @@
   },
   "savedSessions": [
     {
+      "sessionId": "5caa193c-5665-416d-b6a9-bc73df139ce6",
+      "agentId": "claude-code-acp",
+      "cwd": "/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript",
+      "title": "дай мне всю базу по тому, что  я должен прочитать ...",
+      "createdAt": "2026-06-23T07:42:53.450Z",
+      "updatedAt": "2026-06-23T07:42:53.452Z"
+    },
+    {
       "sessionId": "843087b1-2db3-451f-b198-2e8a1e658cbf",
       "agentId": "claude-code-acp",
       "cwd": "/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript",

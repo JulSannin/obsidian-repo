@@ -1,0 +1,170 @@
+{
+  "version": 1,
+  "sessionId": "5caa193c-5665-416d-b6a9-bc73df139ce6",
+  "agentId": "claude-code-acp",
+  "messages": [
+    {
+      "id": "26d49aef-fded-4ffc-8011-f0382443e713",
+      "role": "user",
+      "content": [
+        {
+          "type": "text_with_context",
+          "text": "дай мне всю базу по тому, что  я должен прочитать и освоить, возможно займет 2 дня",
+          "autoMentionContext": {
+            "noteName": "2026-06-23",
+            "notePath": "Дневник/Frontend-intern/2026-06-23.md"
+          }
+        }
+      ],
+      "timestamp": "2026-06-23T07:40:59.742Z"
+    },
+    {
+      "id": "80f2c4dd-0d25-4793-85de-97fdb4a75806",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01FqWRzLanMw4kpqY6yJjcX5",
+          "title": "Read /home/julsannin/.claude/projects/-mnt-HDD-Obsidian-FrontEnd-RoadMap-and-Manuscript/memory/roadmap-vault-conventions.md",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "line": 1,
+              "path": "/home/julsannin/.claude/projects/-mnt-HDD-Obsidian-FrontEnd-RoadMap-and-Manuscript/memory/roadmap-vault-conventions.md"
+            }
+          ],
+          "rawInput": {
+            "file_path": "/home/julsannin/.claude/projects/-mnt-HDD-Obsidian-FrontEnd-RoadMap-and-Manuscript/memory/roadmap-vault-conventions.md"
+          }
+        }
+      ],
+      "timestamp": "2026-06-23T07:41:04.222Z"
+    },
+    {
+      "id": "fa170dd3-a331-4670-afe9-fbd681f1ced8",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01HBtK6ZE85RDabijHy2XrDj",
+          "title": "Read Дневник/Frontend-intern/2026-06-23.md",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "line": 1,
+              "path": "/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript/Дневник/Frontend-intern/2026-06-23.md"
+            }
+          ],
+          "rawInput": {
+            "file_path": "/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript/Дневник/Frontend-intern/2026-06-23.md"
+          }
+        },
+        {
+          "type": "text",
+          "text": "Let me look at the vault structure and the topic notes referenced in your daily note."
+        }
+      ],
+      "timestamp": "2026-06-23T07:41:05.653Z"
+    },
+    {
+      "id": "66b405b8-9d3b-4bd1-a569-2084c349206f",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01DkTeboXF8Rc56f4V4kmpTM",
+          "title": "cd \"/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript\" && find . -type f -name \"*.md\" | sort",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "command": "cd \"/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript\" && find . -type f -name \"*.md\" | sort",
+            "description": "List all markdown notes in vault"
+          }
+        }
+      ],
+      "timestamp": "2026-06-23T07:41:12.317Z"
+    },
+    {
+      "id": "0b05f4a3-1405-48e2-917f-f7f76691c7b8",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01AZqZtv4h3nra3DvvoiKFfV",
+          "title": "Read Frontend/Темы/Сеть и HTTP.md",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "line": 1,
+              "path": "/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript/Frontend/Темы/Сеть и HTTP.md"
+            }
+          ],
+          "rawInput": {
+            "file_path": "/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript/Frontend/Темы/Сеть и HTTP.md"
+          }
+        }
+      ],
+      "timestamp": "2026-06-23T07:41:21.749Z"
+    },
+    {
+      "id": "2c0e2220-483d-40dd-b5c7-4a365138d8a8",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_015nZJXdVDvVskbWXuj6dXm7",
+          "title": "Read Frontend/Этапы/Frontend · Intern.md",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "line": 1,
+              "path": "/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript/Frontend/Этапы/Frontend · Intern.md"
+            }
+          ],
+          "rawInput": {
+            "file_path": "/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript/Frontend/Этапы/Frontend · Intern.md"
+          }
+        }
+      ],
+      "timestamp": "2026-06-23T07:41:25.464Z"
+    },
+    {
+      "id": "85e3ddbd-be28-44bf-ac33-58591271aabf",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01XeDg9nbEbwRhSmUQfYMVHN",
+          "title": "Read Frontend/Ресурсы — Frontend.md",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "line": 1,
+              "path": "/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript/Frontend/Ресурсы — Frontend.md"
+            }
+          ],
+          "rawInput": {
+            "file_path": "/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript/Frontend/Ресурсы — Frontend.md"
+          }
+        },
+        {
+          "type": "text",
+          "text": "Понял. Твоя заметка за сегодня — это **сетевые основы + инструменты** (Intern и Junior уровни из [[Сеть и HTTP]] плюс блок «Веб и инструменты»). Ниже — вся база по этим темам, разбитая на 2 дня. Это не просто ссылки, а сам материал: читаешь → проверяешь себя → отмечаешь галочки в дневнике.\n\n---\n\n# 📅 День 1 — Как устроен веб + инструменты (🟢 Intern)\n\n## 1. Клиент ↔ сервер\n\nИнтернет работает по модели **клиент-сервер**:\n\n- **Клиент** — тот, кто *запрашивает*. Твой браузер (Chrome, Firefox) — это клиент.\n- **Сервер** — компьютер, который *постоянно* включён и *отдаёт* данные по запросу (HTML, картинки, JSON).\n\nДиалог всегда начинает клиент: «дай мне страницу» → сервер отвечает «вот она». Сервер сам, без запроса, ничего не присылает (исключения — WebSockets/SSE, это уже Middle).\n\n- **Браузер** — программа-клиент: отправляет запросы, получает HTML/CSS/JS и **рисует** страницу.\n- **Веб-сервер** — программа на сервере (nginx, Apache, Node.js), которая принимает запросы и отдаёт ответы.\n\n## 2. URL, домен, IP, DNS\n\n**IP-адрес** — числовой адрес компьютера в сети, например `142.250.150.139`. По нему реально находят сервер. Людям такое запоминать неудобно → придумали домены.\n\n**Домен** — человекочитаемое имя: `google.com`. \n\n**DNS (Domain Name System)** — «телефонная книга интернета». Переводит домен → IP. Ты пишешь `google.com`, DNS говорит «это `142.250.150.139`».\n\n**URL** — полный адрес ресурса. Разбор по частям:\n\n```\nhttps://www.example.com:443/blog/post?id=42#section2\n└─┬─┘   └──────┬──────┘└┬┘ └───┬───┘└──┬──┘└───┬──┘\nсхема      хост       порт   путь   query   fragment\n```\n\n- **схема (protocol)** — `https` / `http`\n- **хост (домен)** — какой сервер\n- **порт** — дверь на сервере (`80` для http, `443` для https — обычно скрыты)\n- **путь (path)** — какой ресурс на сервере\n- **query** — параметры после `?`, пары `ключ=значение` через `&`\n- **fragment** — после `#`, прыжок к якорю *внутри* страницы (на сервер не отправляется)\n\n## 3. Что происходит при вводе адреса в браузере ⭐\n\nКлассический вопрос на собеседовании. Цепочка:\n\n1. **Парсинг URL** — браузер разбирает адрес на части.\n2. **DNS-запрос** — домен → IP (сначала проверяется кэш браузера/ОС, потом DNS-сервер).\n3. **TCP-соединение** — браузер устанавливает связь с сервером по IP (рукопожатие TCP).\n4. **TLS-рукопожатие** — если `https`, шифрование настраивается здесь.\n5. **HTTP-запрос** — браузер шлёт `GET /path`.\n6. **Сервер обрабатывает** и возвращает **HTTP-ответ** (HTML + статус-код).\n7. **Рендеринг** — браузер парсит HTML, строит DOM-дерево, грузит CSS/JS/картинки (доп. запросы), рисует страницу.\n\nЗапомни хотя бы скелет: **URL → DNS → TCP → (TLS) → HTTP-запрос → ответ → рендер**.\n\n## 4. HTTP vs HTTPS\n\n- **HTTP** — протокол передачи данных. Текст летит **открытым** — кто угодно по пути (Wi-Fi, провайдер) может прочитать/подменить.\n- **HTTPS** = HTTP + **TLS-шифрование**. Данные зашифрованы, плюс проверяется, что сервер — настоящий (по сертификату).\n\nСегодня **всё должно быть на HTTPS**. Без него браузеры ставят «Не защищено», а многие фичи (геолокация, камера, Service Workers) просто не работают.\n\n## 5. Инструменты\n\n**VS Code** (редактор):\n- Расширения: Prettier (форматирование), ESLint, Live Server, GitLens.\n- Горячие клавиши, которые реально экономят время:\n  - `Ctrl+P` — быстро открыть файл\n  - `Ctrl+Shift+P` — командная палитра (всё управление здесь)\n  - `Ctrl+D` — выделить следующее такое же слово (мультикурсор)\n  - `Alt+↑/↓` — двигать строку\n  - `Ctrl+/` — закомментировать\n- Формат при сохранении: настрой Prettier как форматтер по умолчанию + «Format On Save».\n\n**DevTools браузера** (`F12` или `Ctrl+Shift+I`):\n- **Elements** — живой DOM и CSS. Можно менять стили прямо здесь и сразу видеть результат (не сохраняется — это песочница).\n- **Console** — выполняй JS, читай ошибки и `console.log`. Самый частый инструмент отладки.\n\n**Терминал** (базовые команды):\n- `pwd` — где я сейчас\n- `ls` — что в папке (`ls -la` — со скрытыми)\n- `cd папка` — перейти; `cd ..` — на уровень вверх\n- `mkdir имя` — создать папку\n- `touch файл` — создать файл\n- `rm файл` / `rm -r папка` — удалить (осторожно, без корзины)\n\n---\n\n# 📅 День 2 — HTTP вглубь + API (🟡 Junior)\n\n## 1. HTTP-методы (глаголы)\n\nМетод говорит серверу, **что** ты хочешь сделать с ресурсом:\n\n| Метод | Зачем | Идемпотентность* |\n|-------|-------|------|\n| `GET` | получить данные | да |\n| `POST` | создать новое | нет |\n| `PUT` | заменить ресурс **целиком** | да |\n| `PATCH` | обновить **часть** полей | нет |\n| `DELETE` | удалить | да |\n\n*Идемпотентность* — повторный одинаковый запрос даёт тот же результат. `GET` дёргай хоть 100 раз — данные не меняются. А `POST` дважды → создашь две записи.\n\n**PUT vs PATCH** (частый вопрос): PUT шлёт весь объект и заменяет его целиком; PATCH шлёт только изменённые поля.\n\n## 2. Статус-коды\n\nСервер в ответе всегда возвращает код. Первая цифра = категория:\n\n- **2xx — успех**\n  - `200 OK` — всё ок\n  - `201 Created` — создан ресурс (ответ на POST)\n  - `204 No Content` — ок, но тела нет\n- **3xx — перенаправление**\n  - `301 Moved Permanently` — навсегда переехал\n  - `302 Found` — временный редирект\n  - `304 Not Modified` — бери из кэша\n- **4xx — ошибка клиента (ты накосячил)**\n  - `400 Bad Request` — кривой запрос\n  - `401 Unauthorized` — **не аутентифицирован** (кто ты? войди)\n  - `403 Forbidden` — **аутентифицирован, но нельзя** (знаю кто ты, доступа нет)\n  - `404 Not Found` — нет такого ресурса\n- **5xx — ошибка сервера (сервер накосячил)**\n  - `500 Internal Server Error` — упал сервер\n  - `502 / 503` — шлюз/сервис недоступен\n\n**401 vs 403** (вопрос-ловушка): 401 — «ты вообще не вошёл», 403 — «вошёл, но прав нет».\n\n## 3. Заголовки, тело, Content-Type\n\nЛюбой запрос/ответ = **заголовки** (метаданные) + опционально **тело** (данные).\n\nПример запроса:\n```http\nPOST /api/users HTTP/1.1\nHost: example.com\nContent-Type: application/json      ← какой формат у тела\nAuthorization: Bearer eyJhbG...     ← токен авторизации\nAccept: application/json            ← какой формат хочу в ответ\n\n{ \"name\": \"Аня\", \"age\": 25 }        ← тело\n```\n\n- **`Content-Type`** — в каком формате тело: `application/json`, `text/html`, `multipart/form-data` (файлы).\n- **`Authorization`** — токен/ключ доступа.\n- У `GET` тела обычно нет — параметры идут в query-строке URL.\n\n## 4. REST API — принципы\n\n**API** — интерфейс, через который программы общаются. **REST** — самый распространённый стиль HTTP-API. Идея: **ресурсы** (существительные) в URL + **методы** (глаголы) для действий над ними.\n\n```\nGET    /users         → список пользователей\nGET    /users/42      → пользователь №42\nPOST   /users         → создать пользователя\nPUT    /users/42      → заменить пользователя 42\nPATCH  /users/42      → обновить часть полей\nDELETE /users/42      → удалить\n```\n\nЗаметь: URL — это **что** (ресурс), метод — это **действие**. Плохо: `/getUser?id=42`. Хорошо: `GET /users/42`.\n\n**Как читать доку API:** ищешь — какой `метод` + `endpoint`, какие параметры/тело нужны, что вернётся (формат + коды), нужна ли авторизация. Тренируйся на доках, например, любого публичного API (GitHub, погода).\n\n## 5. fetch и JSON → [[JavaScript]]\n\n**JSON** — текстовый формат обмена данными, похож на объект JS:\n```json\n{ \"name\": \"Аня\", \"skills\": [\"html\", \"css\"], \"active\": true }\n```\n\n`fetch` — встроенная в браузер функция для HTTP-запросов. Возвращает `Promise`.\n\n```js\n// GET\nconst res = await fetch('https://api.example.com/users/42');\nif (!res.ok) throw new Error(`HTTP ${res.status}`); // res.ok = true для 2xx\nconst user = await res.json();   // парсим тело из JSON в объект JS\nconsole.log(user.name);\n\n// POST\nconst res = await fetch('https://api.example.com/users', {\n  method: 'POST',\n  headers: { 'Content-Type': 'application/json' },\n  body: JSON.stringify({ name: 'Аня' }),  // объект → JSON-строку\n});\n```\n\nВажно: `fetch` **не падает** на статусах 4xx/5xx — проверяй `res.ok` сам. `res.json()` — тоже Promise (нужен `await`).\n\n## 6. Вкладка Network в DevTools\n\nОткрой `F12 → Network`, перезагрузи страницу. Здесь видно **каждый** запрос:\n- **Status** — код ответа (зелёный/красный)\n- **Method** — GET/POST...\n- **Type** — что грузилось (document, fetch/xhr, img, css)\n- Клик по запросу → **Headers** (заголовки), **Payload** (что отправили), **Response** (что вернулось), **Timing** (сколько шло).\n\nЭто **главный инструмент** для отладки общения с сервером. Фильтр `Fetch/XHR` показывает только API-запросы.\n\n## 7. CORS\n\n**CORS (Cross-Origin Resource Sharing)** — механизм безопасности браузера. По умолчанию JS со страницы `site-a.com` **не может** читать ответы запросов на `api-site-b.com` (другой origin = схема+домен+порт).\n\n- Ошибку CORS ты увидишь в Console: *«blocked by CORS policy»*.\n- **Кто чинит:** НЕ фронтенд. Чинит **сервер** (бэкенд) — он должен прислать заголовок `Access-Control-Allow-Origin` с разрешённым origin. На фронте ты CORS «починить» не можешь, только попросить бэкенд или поставить прокси для разработки.\n- Это **не** проблема твоего кода — это сервер не разрешил доступ.\n\n---\n\n# ✅ Чек-самопроверка (из [[Сеть и HTTP]])\n\nСможешь ответить без подсказок — тему освоил:\n\n1. Что происходит при вводе адреса в браузере? (цепочка)\n2. Чем PUT отличается от PATCH?\n3. Что значит 401 vs 403?\n4. Зачем нужен `Content-Type`?\n5. Что такое REST, как выглядит запрос на создание пользователя?\n6. Почему `fetch` не бросает ошибку на 404?\n7. Откуда берётся CORS-ошибка и кто её чинит?\n\n---\n\n# 📎 Ресурсы (из [[Ресурсы — Frontend]])\n\n- **MDN: HTTP** — главный справочник по методам, кодам, заголовкам, CORS.\n- **MDN: Fetch API** — по `fetch`.\n- **«High Performance Browser Networking»** (бесплатно онлайн) — глубже про сеть.\n- Практика: открой DevTools → Network на любом сайте и разбери реальные запросы.\n\n---\n\nХочешь — могу **сохранить это как отдельную заметку в vault** (например, `Темы/` или в дневник) с правильными `[[вики-ссылками]]` по вашим конвенциям, чтобы было под рукой и линковалось с [[Сеть и HTTP]]. Сказать куда?"
+        }
+      ],
+      "timestamp": "2026-06-23T07:41:25.660Z"
+    }
+  ],
+  "savedAt": "2026-06-23T07:42:53.471Z"
+}
