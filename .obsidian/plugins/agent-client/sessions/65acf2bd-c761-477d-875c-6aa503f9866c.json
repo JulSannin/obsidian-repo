@@ -1,0 +1,228 @@
+{
+  "version": 1,
+  "sessionId": "65acf2bd-c761-477d-875c-6aa503f9866c",
+  "agentId": "claude-code-acp",
+  "messages": [
+    {
+      "id": "0b6166c0-4805-4181-a194-ff792d94a30c",
+      "role": "user",
+      "content": [
+        {
+          "type": "text_with_context",
+          "text": "Дай мне базу про Docker и Docker Compose в 'Что я прочитал и освоил'",
+          "autoMentionContext": {
+            "noteName": "2026-06-24",
+            "notePath": "Дневник/Frontend-intern/2026-06-24.md"
+          }
+        }
+      ],
+      "timestamp": "2026-06-24T08:41:10.501Z"
+    },
+    {
+      "id": "09c62090-2022-4630-8ed6-7605d2a7323a",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01BMteLAWajoPQQXuqt1epm6",
+          "title": "Read Дневник/Frontend-intern/2026-06-24.md",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "line": 1,
+              "path": "/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript/Дневник/Frontend-intern/2026-06-24.md"
+            }
+          ],
+          "rawInput": {
+            "file_path": "/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript/Дневник/Frontend-intern/2026-06-24.md"
+          }
+        }
+      ],
+      "timestamp": "2026-06-24T08:41:15.054Z"
+    },
+    {
+      "id": "ef8fdfaa-9254-4cc9-8bc0-f3fb647be74f",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01MkAA88vMko11gqniecKxGV",
+          "title": "Read /home/julsannin/.claude/projects/-mnt-HDD-Obsidian-FrontEnd-RoadMap-and-Manuscript/memory/roadmap-vault-conventions.md",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "line": 1,
+              "path": "/home/julsannin/.claude/projects/-mnt-HDD-Obsidian-FrontEnd-RoadMap-and-Manuscript/memory/roadmap-vault-conventions.md"
+            }
+          ],
+          "rawInput": {
+            "file_path": "/home/julsannin/.claude/projects/-mnt-HDD-Obsidian-FrontEnd-RoadMap-and-Manuscript/memory/roadmap-vault-conventions.md"
+          }
+        }
+      ],
+      "timestamp": "2026-06-24T08:41:16.014Z"
+    },
+    {
+      "id": "bc6e27d6-4771-447e-a8e1-1172a13464bd",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_014dGDACJdYYg41XCUP15mF4",
+          "title": "ls -la \"/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript/Дневник/Frontend-intern/\"",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "command": "ls -la \"/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript/Дневник/Frontend-intern/\"",
+            "description": "List diary entries"
+          }
+        }
+      ],
+      "timestamp": "2026-06-24T08:41:27.898Z"
+    },
+    {
+      "id": "a3b3fdb5-f915-41a3-bfb6-6509dd553f81",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01MN76Y9MKEMWJGbB9WAgFKA",
+          "title": "Read Дневник/Frontend-intern/2026-06-23.md",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "line": 1,
+              "path": "/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript/Дневник/Frontend-intern/2026-06-23.md"
+            }
+          ],
+          "rawInput": {
+            "file_path": "/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript/Дневник/Frontend-intern/2026-06-23.md"
+          }
+        },
+        {
+          "type": "text",
+          "text": "Прочитал твою вчерашнюю запись — понял формат (нумерованные блоки, жирные термины, таблицы, код, аналогии, «что запомнить»). Заполняю секцию в том же стиле."
+        }
+      ],
+      "timestamp": "2026-06-24T08:41:34.864Z"
+    },
+    {
+      "id": "7175d528-c52f-47b7-a0c0-5f81ca5c24a8",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01J3TJwRucLdpQGvCQZCDDSQ",
+          "title": "Edit Дневник/Frontend-intern/2026-06-24.md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript/Дневник/Frontend-intern/2026-06-24.md",
+              "newText": "- [ ] 2.Редактор кода (VS Code): расширения, форматирование, горячие клавиши.\n- [ ] 3.DevTools браузера: вкладки Elements и Console.\n- [ ] 4.Терминал: базовые команды (`cd`, `ls`, `mkdir`).\n- [x] 5. Docker (база) → см. ниже\n\n## Что я прочитал и освоил\n No newline at end of file",
+              "oldText": "- [ ] 2.Редактор кода (VS Code): расширения, форматирование, горячие клавиши.\n- [ ] 3.DevTools браузера: вкладки Elements и Console.\n- [ ] 4.Терминал: базовые команды (`cd`, `ls`, `mkdir`).\n- [ ] 5. Docker\n\n## Что я прочитал и освоил\n No newline at end of file"
+            }
+          ],
+          "locations": [
+            {
+              "line": 5,
+              "path": "/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript/Дневник/Frontend-intern/2026-06-24.md"
+            }
+          ],
+          "rawInput": {
+            "replace_all": false,
+            "file_path": "/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript/Дневник/Frontend-intern/2026-06-24.md",
+            "old_string": "- [ ] 5. Docker",
+            "new_string": "- [x] 5. Docker (база) → см. ниже"
+          }
+        }
+      ],
+      "timestamp": "2026-06-24T08:42:55.454Z"
+    },
+    {
+      "id": "188aae39-a171-4ba2-abfb-fe3e3774c4a3",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_013vbHnMJw2UEN3Q3bQ2STVq",
+          "title": "Edit Дневник/Frontend-intern/2026-06-24.md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript/Дневник/Frontend-intern/2026-06-24.md",
+              "newText": "- [ ] 4.Терминал: базовые команды (`cd`, `ls`, `mkdir`).\n- [x] 5. Docker (база) → см. ниже\n\n No newline at end of file\n## Что я прочитал и освоил\n\n### 1. Зачем нужен Docker\n\n**Проблема:** «у меня на компе работает, а на сервере — нет». Разные версии Node, библиотек, ОС → приложение ведёт себя по-разному.\n\n**Docker** упаковывает приложение **вместе со всем окружением** (код, рантайм, библиотеки, системные зависимости) в изолированную коробку — **контейнер**. Эта коробка одинаково запускается где угодно: на твоём ноуте, у коллеги, на сервере.\n\nДевиз: **«build once, run anywhere»** — собрал один раз, запускай везде.\n\n### 2. Контейнер vs виртуальная машина\n\n|              | Виртуальная машина (VM)       | Контейнер                  |\n| ------------ | ----------------------------- | -------------------------- |\n| Что внутри   | целая гостевая **ОС** + прило | только приложение + зависи |\n| Ядро         | своё                          | **общее** с хостом         |\n| Вес          | гигабайты                     | мегабайты                  |\n| Старт        | минуты                        | секунды                    |\n\nVM виртуализирует **железо** и тащит за собой полноценную ОС. Контейнер виртуализирует **ОС**: все контейнеры делят **ядро хоста**, поэтому они лёгкие и стартуют за секунды.\n\n### 3. Главные понятия\n\n- **Образ (image)** — неизменяемый **шаблон**: снимок файловой системы с приложением и зависимостями. Это как **класс** в ООП или установочный диск.\n- **Контейнер (container)** — **запущенный экземпляр** образа. Как **объект** класса. Из одного образа можно поднять сколько угодно контейнеров.\n- **Dockerfile** — текстовый **рецепт**, по которому собирается образ.\n- **Реестр (registry)** — хранилище образов. Публичный — **Docker Hub** (как npm, только для образов). `docker pull node` тянет образ оттуда.\n\nЦепочка: **Dockerfile → (build) → образ → (run) → контейнер**.\n\n### 4. Dockerfile\n\nРецепт сборки образа. Каждая инструкция = **слой (layer)**, слои кэшируются.\n\n```dockerfile\nFROM node:20-alpine        # базовый образ (с чего начинаем)\nWORKDIR /app               # рабочая папка внутри контейнера\nCOPY package*.json ./      # сначала только манифесты...\nRUN npm ci                 # ...ставим зависимости (этот слой закэшируется)\nCOPY . .                   # потом копируем весь код\nEXPOSE 3000                # документируем порт (сам по себе не публикует)\nCMD [\"node\", \"server.js\"]  # команда запуска контейнера\n```\n\n**Почему `package.json` копируем отдельно?** Docker кэширует слои. Пока `package.json` не менялся — слой с `npm ci` берётся из кэша, и пересборка летает. Поменял только код → зависимости заново не ставятся.\n\n- **`RUN`** — выполняется при **сборке** образа.\n- **`CMD`** — выполняется при **старте** контейнера (в образе он один).\n\n### 5. Основные команды\n\n```bash\ndocker build -t myapp .          # собрать образ из Dockerfile (тег myapp)\ndocker images                    # список образов\ndocker run -p 3000:3000 myapp    # запустить контейнер (хост:контейнер)\ndocker ps                        # запущенные контейнеры\ndocker ps -a                     # все, включая остановленные\ndocker stop <id>                 # остановить\ndocker rm <id>                   # удалить контейнер\ndocker rmi myapp                 # удалить образ\ndocker logs <id>                 # логи контейнера\ndocker exec -it <id> sh          # зайти внутрь контейнера (шелл)\n```\n\nПолезные флаги `run`: `-p хост:контейнер` (порты), `-d` (фоном, detached), `-it` (интерактивно), `--name` (имя), `-e KEY=val` (переменная окружения), `-v` (том).\n\n### 6. Порты и тома\n\n**Проброс портов (`-p 3000:3000`)** — контейнер изолирован, его внутренний порт надо «вывести наружу». Слева — порт на твоём компе, справа — порт внутри контейнера.\n\n**Тома (volumes, `-v`)** — контейнер **эфемерный**: удалил → данные внутри пропали. Чтобы данные жили (БД, загрузки), их кладут в **том** — хранилище вне контейнера.\n\n```bash\ndocker run -v mydata:/var/lib/postgresql/data postgres  # именованный том\ndocker run -v $(pwd):/app node                          # папка хоста внутрь (удобно в разработке)\n```\n\n### 7. Зачем Docker Compose\n\nРеальное приложение — это не один контейнер: фронт + бэк + БД + кэш. Поднимать каждый руками длинной командой `docker run ...` — боль.\n\n**Docker Compose** описывает **все сервисы в одном YAML-файле** и поднимает их одной командой. Это **дирижёр** для нескольких контейнеров.\n\n### 8. docker-compose.yml\n\n```yaml\nservices:\n  app:                          # сервис 1 — наше приложение\n    build: .                    # собрать из локального Dockerfile\n    ports:\n      - \"3000:3000\"\n    environment:\n      DATABASE_URL: postgres://user:pass@db:5432/mydb\n    depends_on:\n      - db                      # стартовать после db\n\n  db:                           # сервис 2 — база\n    image: postgres:16          # готовый образ с Docker Hub\n    environment:\n      POSTGRES_USER: user\n      POSTGRES_PASSWORD: pass\n      POSTGRES_DB: mydb\n    volumes:\n      - pgdata:/var/lib/postgresql/data   # данные переживут перезапуск\n\nvolumes:\n  pgdata:                       # объявляем именованный том\n```\n\n**Магия сети:** Compose сам создаёт общую сеть, и сервисы видят друг друга **по имени сервиса**. В `DATABASE_URL` хост — это `db` (имя сервиса), а **не** `localhost`. Частая ошибка новичков: внутри Compose обращайся к соседу по имени сервиса, `localhost` укажет на сам контейнер.\n\n### 9. Команды Compose\n\n```bash\ndocker compose up            # поднять всё (по docker-compose.yml)\ndocker compose up -d         # ...в фоне\ndocker compose up --build    # пересобрать образы и поднять\ndocker compose ps            # статус сервисов\ndocker compose logs -f app   # логи сервиса app, follow\ndocker compose exec app sh   # шелл внутри сервиса app\ndocker compose down          # остановить и удалить контейнеры + сеть\ndocker compose down -v       # ...вместе с томами (снесёт данные БД!)\n```\n\n`build` vs `image` в Compose: `build: .` — собрать свой образ из Dockerfile; `image: postgres:16` — взять готовый из реестра.\n\n### 10. Что запомнить\n\n- **Образ — шаблон, контейнер — запущенный экземпляр** (класс vs объект).\n- Контейнер **легче** VM, потому что делит **ядро хоста**.\n- **Dockerfile** собирает образ; порядок инструкций важен из-за **кэша слоёв** — зависимости копируй раньше кода.\n- Контейнер **эфемерный** → данные храни в **томах**.\n- Порты надо **пробрасывать** (`-p`), наружу сами не торчат.\n- **Compose** = много контейнеров одним файлом; сервисы общаются **по имени сервиса**, а не через `localhost`.\n No newline at end of file",
+              "oldText": "- [ ] 4.Терминал: базовые команды (`cd`, `ls`, `mkdir`).\n- [x] 5. Docker (база) → см. ниже\n\n## Что я прочитал и освоил\n No newline at end of file\n No newline at end of file"
+            }
+          ],
+          "locations": [
+            {
+              "line": 7,
+              "path": "/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript/Дневник/Frontend-intern/2026-06-24.md"
+            }
+          ],
+          "rawInput": {
+            "replace_all": false,
+            "file_path": "/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript/Дневник/Frontend-intern/2026-06-24.md",
+            "old_string": "## Что я прочитал и освоил",
+            "new_string": "## Что я прочитал и освоил\n\n### 1. Зачем нужен Docker\n\n**Проблема:** «у меня на компе работает, а на сервере — нет». Разные версии Node, библиотек, ОС → приложение ведёт себя по-разному.\n\n**Docker** упаковывает приложение **вместе со всем окружением** (код, рантайм, библиотеки, системные зависимости) в изолированную коробку — **контейнер**. Эта коробка одинаково запускается где угодно: на твоём ноуте, у коллеги, на сервере.\n\nДевиз: **«build once, run anywhere»** — собрал один раз, запускай везде.\n\n### 2. Контейнер vs виртуальная машина\n\n|              | Виртуальная машина (VM)       | Контейнер                  |\n| ------------ | ----------------------------- | -------------------------- |\n| Что внутри   | целая гостевая **ОС** + прило | только приложение + зависи |\n| Ядро         | своё                          | **общее** с хостом         |\n| Вес          | гигабайты                     | мегабайты                  |\n| Старт        | минуты                        | секунды                    |\n\nVM виртуализирует **железо** и тащит за собой полноценную ОС. Контейнер виртуализирует **ОС**: все контейнеры делят **ядро хоста**, поэтому они лёгкие и стартуют за секунды.\n\n### 3. Главные понятия\n\n- **Образ (image)** — неизменяемый **шаблон**: снимок файловой системы с приложением и зависимостями. Это как **класс** в ООП или установочный диск.\n- **Контейнер (container)** — **запущенный экземпляр** образа. Как **объект** класса. Из одного образа можно поднять сколько угодно контейнеров.\n- **Dockerfile** — текстовый **рецепт**, по которому собирается образ.\n- **Реестр (registry)** — хранилище образов. Публичный — **Docker Hub** (как npm, только для образов). `docker pull node` тянет образ оттуда.\n\nЦепочка: **Dockerfile → (build) → образ → (run) → контейнер**.\n\n### 4. Dockerfile\n\nРецепт сборки образа. Каждая инструкция = **слой (layer)**, слои кэшируются.\n\n```dockerfile\nFROM node:20-alpine        # базовый образ (с чего начинаем)\nWORKDIR /app               # рабочая папка внутри контейнера\nCOPY package*.json ./      # сначала только манифесты...\nRUN npm ci                 # ...ставим зависимости (этот слой закэшируется)\nCOPY . .                   # потом копируем весь код\nEXPOSE 3000                # документируем порт (сам по себе не публикует)\nCMD [\"node\", \"server.js\"]  # команда запуска контейнера\n```\n\n**Почему `package.json` копируем отдельно?** Docker кэширует слои. Пока `package.json` не менялся — слой с `npm ci` берётся из кэша, и пересборка летает. Поменял только код → зависимости заново не ставятся.\n\n- **`RUN`** — выполняется при **сборке** образа.\n- **`CMD`** — выполняется при **старте** контейнера (в образе он один).\n\n### 5. Основные команды\n\n```bash\ndocker build -t myapp .          # собрать образ из Dockerfile (тег myapp)\ndocker images                    # список образов\ndocker run -p 3000:3000 myapp    # запустить контейнер (хост:контейнер)\ndocker ps                        # запущенные контейнеры\ndocker ps -a                     # все, включая остановленные\ndocker stop <id>                 # остановить\ndocker rm <id>                   # удалить контейнер\ndocker rmi myapp                 # удалить образ\ndocker logs <id>                 # логи контейнера\ndocker exec -it <id> sh          # зайти внутрь контейнера (шелл)\n```\n\nПолезные флаги `run`: `-p хост:контейнер` (порты), `-d` (фоном, detached), `-it` (интерактивно), `--name` (имя), `-e KEY=val` (переменная окружения), `-v` (том).\n\n### 6. Порты и тома\n\n**Проброс портов (`-p 3000:3000`)** — контейнер изолирован, его внутренний порт надо «вывести наружу». Слева — порт на твоём компе, справа — порт внутри контейнера.\n\n**Тома (volumes, `-v`)** — контейнер **эфемерный**: удалил → данные внутри пропали. Чтобы данные жили (БД, загрузки), их кладут в **том** — хранилище вне контейнера.\n\n```bash\ndocker run -v mydata:/var/lib/postgresql/data postgres  # именованный том\ndocker run -v $(pwd):/app node                          # папка хоста внутрь (удобно в разработке)\n```\n\n### 7. Зачем Docker Compose\n\nРеальное приложение — это не один контейнер: фронт + бэк + БД + кэш. Поднимать каждый руками длинной командой `docker run ...` — боль.\n\n**Docker Compose** описывает **все сервисы в одном YAML-файле** и поднимает их одной командой. Это **дирижёр** для нескольких контейнеров.\n\n### 8. docker-compose.yml\n\n```yaml\nservices:\n  app:                          # сервис 1 — наше приложение\n    build: .                    # собрать из локального Dockerfile\n    ports:\n      - \"3000:3000\"\n    environment:\n      DATABASE_URL: postgres://user:pass@db:5432/mydb\n    depends_on:\n      - db                      # стартовать после db\n\n  db:                           # сервис 2 — база\n    image: postgres:16          # готовый образ с Docker Hub\n    environment:\n      POSTGRES_USER: user\n      POSTGRES_PASSWORD: pass\n      POSTGRES_DB: mydb\n    volumes:\n      - pgdata:/var/lib/postgresql/data   # данные переживут перезапуск\n\nvolumes:\n  pgdata:                       # объявляем именованный том\n```\n\n**Магия сети:** Compose сам создаёт общую сеть, и сервисы видят друг друга **по имени сервиса**. В `DATABASE_URL` хост — это `db` (имя сервиса), а **не** `localhost`. Частая ошибка новичков: внутри Compose обращайся к соседу по имени сервиса, `localhost` укажет на сам контейнер.\n\n### 9. Команды Compose\n\n```bash\ndocker compose up            # поднять всё (по docker-compose.yml)\ndocker compose up -d         # ...в фоне\ndocker compose up --build    # пересобрать образы и поднять\ndocker compose ps            # статус сервисов\ndocker compose logs -f app   # логи сервиса app, follow\ndocker compose exec app sh   # шелл внутри сервиса app\ndocker compose down          # остановить и удалить контейнеры + сеть\ndocker compose down -v       # ...вместе с томами (снесёт данные БД!)\n```\n\n`build` vs `image` в Compose: `build: .` — собрать свой образ из Dockerfile; `image: postgres:16` — взять готовый из реестра.\n\n### 10. Что запомнить\n\n- **Образ — шаблон, контейнер — запущенный экземпляр** (класс vs объект).\n- Контейнер **легче** VM, потому что делит **ядро хоста**.\n- **Dockerfile** собирает образ; порядок инструкций важен из-за **кэша слоёв** — зависимости копируй раньше кода.\n- Контейнер **эфемерный** → данные храни в **томах**.\n- Порты надо **пробрасывать** (`-p`), наружу сами не торчат.\n- **Compose** = много контейнеров одним файлом; сервисы общаются **по имени сервиса**, а не через `localhost`."
+          }
+        },
+        {
+          "type": "text",
+          "text": "The table cells got truncated while I was aligning columns. Fixing that."
+        }
+      ],
+      "timestamp": "2026-06-24T08:42:56.866Z"
+    },
+    {
+      "id": "d16d18b6-1e39-4562-bc46-78a05b8d808c",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01NKEkPbnJPos3oLBkrDMEXz",
+          "title": "Edit Дневник/Frontend-intern/2026-06-24.md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript/Дневник/Frontend-intern/2026-06-24.md",
+              "newText": "\n### 2. Контейнер vs виртуальная машина\n\n|            | Виртуальная машина (VM)            | Контейнер                       |\n| ---------- | ---------------------------------- | ------------------------------- |\n| Что внутри | целая гостевая **ОС** + приложение | только приложение + зависимости |\n| Ядро       | своё                               | **общее** с хостом              |\n| Вес        | гигабайты                          | мегабайты                       |\n| Старт      | минуты                             | секунды                         |\n\nVM виртуализирует **железо** и тащит за собой полноценную ОС. Контейнер виртуализирует **ОС**: все контейнеры делят **ядро хоста**, поэтому они лёгкие и стартуют за секунды.\n",
+              "oldText": "\n### 2. Контейнер vs виртуальная машина\n\n|              | Виртуальная машина (VM)       | Контейнер                  |\n| ------------ | ----------------------------- | -------------------------- |\n| Что внутри   | целая гостевая **ОС** + прило | только приложение + зависи |\n| Ядро         | своё                          | **общее** с хостом         |\n| Вес          | гигабайты                     | мегабайты                  |\n| Старт        | минуты                        | секунды                    |\n\nVM виртуализирует **железо** и тащит за собой полноценную ОС. Контейнер виртуализирует **ОС**: все контейнеры делят **ядро хоста**, поэтому они лёгкие и стартуют за секунды.\n"
+            }
+          ],
+          "locations": [
+            {
+              "line": 19,
+              "path": "/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript/Дневник/Frontend-intern/2026-06-24.md"
+            }
+          ],
+          "rawInput": {
+            "replace_all": false,
+            "file_path": "/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript/Дневник/Frontend-intern/2026-06-24.md",
+            "old_string": "|              | Виртуальная машина (VM)       | Контейнер                  |\n| ------------ | ----------------------------- | -------------------------- |\n| Что внутри   | целая гостевая **ОС** + прило | только приложение + зависи |\n| Ядро         | своё                          | **общее** с хостом         |\n| Вес          | гигабайты                     | мегабайты                  |\n| Старт        | минуты                        | секунды                    |",
+            "new_string": "|            | Виртуальная машина (VM)            | Контейнер                       |\n| ---------- | ---------------------------------- | ------------------------------- |\n| Что внутри | целая гостевая **ОС** + приложение | только приложение + зависимости |\n| Ядро       | своё                               | **общее** с хостом              |\n| Вес        | гигабайты                          | мегабайты                       |\n| Старт      | минуты                             | секунды                         |"
+          }
+        },
+        {
+          "type": "text",
+          "text": "Готово. Добавил базу в секцию **«Что я прочитал и освоил»** — 10 блоков в стиле твоей вчерашней записи (жирные термины, таблица, код с комментариями, аналогии, «что запомнить»):\n\n1. **Зачем нужен Docker** — проблема «у меня работает», build once run anywhere\n2. **Контейнер vs VM** — таблица сравнения, общее ядро хоста\n3. **Главные понятия** — образ/контейнер/Dockerfile/реестр (аналогия класс↔объект)\n4. **Dockerfile** — пример + почему `package.json` копируют отдельно (кэш слоёв), `RUN` vs `CMD`\n5. **Основные команды** — build/run/ps/logs/exec + флаги\n6. **Порты и тома** — проброс `-p`, эфемерность контейнера, volumes\n7. **Зачем Compose** — много контейнеров одной командой\n8. **docker-compose.yml** — рабочий пример app + postgres, магия сети (хост = имя сервиса, не `localhost`)\n9. **Команды Compose** — up/down/logs/exec, `build` vs `image`\n10. **Что запомнить** — короткая выжимка\n\nТакже отметил чекбокс `5. Docker` как выполненный со ссылкой «см. ниже» — по аналогии с тем, как ты вчера закрывал пункт «Как работает веб».\n\nХочешь, вынесу это в отдельную тему-ноту (`Темы/Docker.md`) по конвенции вU vault'а (🟢/🟡 уровни + `## 🧪 Проверь себя`), чтобы потом сгенерить колоду флешкарт?"
+        }
+      ],
+      "timestamp": "2026-06-24T08:43:26.732Z"
+    }
+  ],
+  "savedAt": "2026-06-24T08:43:44.806Z"
+}

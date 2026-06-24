@@ -56,6 +56,14 @@
   },
   "savedSessions": [
     {
+      "sessionId": "65acf2bd-c761-477d-875c-6aa503f9866c",
+      "agentId": "claude-code-acp",
+      "cwd": "/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript",
+      "title": "Дай мне базу про Docker и Docker Compose в 'Что я ...",
+      "createdAt": "2026-06-24T08:43:44.798Z",
+      "updatedAt": "2026-06-24T08:43:44.798Z"
+    },
+    {
       "sessionId": "5caa193c-5665-416d-b6a9-bc73df139ce6",
       "agentId": "claude-code-acp",
       "cwd": "/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript",
