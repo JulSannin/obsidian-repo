@@ -56,6 +56,22 @@
   },
   "savedSessions": [
     {
+      "sessionId": "cb434598-d870-4606-8211-21bde9289f27",
+      "agentId": "claude-code-acp",
+      "cwd": "/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript",
+      "title": "Сегодня хочу освоить и прочитать React (информация...",
+      "createdAt": "2026-06-25T14:01:58.175Z",
+      "updatedAt": "2026-06-25T14:01:58.176Z"
+    },
+    {
+      "sessionId": "693d1053-7a45-4248-89d6-946586c4ca47",
+      "agentId": "claude-code-acp",
+      "cwd": "/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript",
+      "title": "Сегодня бы хотелось базу React почитать и освоить\n...",
+      "createdAt": "2026-06-25T13:52:37.333Z",
+      "updatedAt": "2026-06-25T13:52:37.334Z"
+    },
+    {
       "sessionId": "65acf2bd-c761-477d-875c-6aa503f9866c",
       "agentId": "claude-code-acp",
       "cwd": "/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript",

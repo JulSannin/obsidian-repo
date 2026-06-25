@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "sessionId": "693d1053-7a45-4248-89d6-946586c4ca47",
+  "agentId": "claude-code-acp",
+  "messages": [
+    {
+      "id": "049113cd-568a-4ad8-87bb-9c1f5a6b2542",
+      "role": "user",
+      "content": [
+        {
+          "type": "text_with_context",
+          "text": "Сегодня бы хотелось базу React почитать и освоить\nВыдай мне инфу о нем до уровня junior+",
+          "autoMentionContext": {
+            "noteName": "2026-06-25",
+            "notePath": "Дневник/Frontend-intern/2026-06-25.md"
+          }
+        }
+      ],
+      "timestamp": "2026-06-25T13:52:36.741Z"
+    }
+  ],
+  "savedAt": "2026-06-25T13:52:37.387Z"
+}

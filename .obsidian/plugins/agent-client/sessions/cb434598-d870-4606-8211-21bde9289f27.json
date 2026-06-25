@@ -1,0 +1,315 @@
+{
+  "version": 1,
+  "sessionId": "cb434598-d870-4606-8211-21bde9289f27",
+  "agentId": "claude-code-acp",
+  "messages": [
+    {
+      "id": "8fab269b-ed1b-4f55-9221-ce107b395a7b",
+      "role": "user",
+      "content": [
+        {
+          "type": "text_with_context",
+          "text": "Сегодня хочу освоить и прочитать React (информация до уровня junior+)\nпо аналогии с 2026-06-24 и 2026-06-23 заполни документ",
+          "autoMentionContext": {
+            "noteName": "2026-06-25",
+            "notePath": "Дневник/Frontend-intern/2026-06-25.md"
+          }
+        }
+      ],
+      "timestamp": "2026-06-25T13:57:10.542Z"
+    },
+    {
+      "id": "a7be56ed-980e-4715-851f-ac263ef8769d",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": "I'll read the example notes and the vault conventions to understand the pattern before filling in today's note."
+        }
+      ],
+      "timestamp": "2026-06-25T13:57:17.711Z"
+    },
+    {
+      "id": "47e675c1-b7b3-43c4-aed1-2d8518d937de",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_016fRkkng9Rn5KxYSz5owV2e",
+          "title": "Read Дневник/Frontend-intern/2026-06-25.md",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "line": 1,
+              "path": "/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript/Дневник/Frontend-intern/2026-06-25.md"
+            }
+          ],
+          "rawInput": {
+            "file_path": "/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript/Дневник/Frontend-intern/2026-06-25.md"
+          }
+        }
+      ],
+      "timestamp": "2026-06-25T13:57:17.742Z"
+    },
+    {
+      "id": "055ce3b3-9028-48c5-a737-9bd3af7fc1f2",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01XRvUkeVAuo1qcY5UEpZ5LN",
+          "title": "Read Дневник/Frontend-intern/2026-06-24.md",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "line": 1,
+              "path": "/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript/Дневник/Frontend-intern/2026-06-24.md"
+            }
+          ],
+          "rawInput": {
+            "file_path": "/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript/Дневник/Frontend-intern/2026-06-24.md"
+          }
+        }
+      ],
+      "timestamp": "2026-06-25T13:57:18.232Z"
+    },
+    {
+      "id": "5bfdfa19-690d-4f85-9fe6-07a46be2f694",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01CtzWygMBHAwcNmhDPK5w3y",
+          "title": "Read /home/julsannin/.claude/projects/-mnt-HDD-Obsidian-FrontEnd-RoadMap-and-Manuscript/memory/roadmap-vault-conventions.md",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "line": 1,
+              "path": "/home/julsannin/.claude/projects/-mnt-HDD-Obsidian-FrontEnd-RoadMap-and-Manuscript/memory/roadmap-vault-conventions.md"
+            }
+          ],
+          "rawInput": {
+            "file_path": "/home/julsannin/.claude/projects/-mnt-HDD-Obsidian-FrontEnd-RoadMap-and-Manuscript/memory/roadmap-vault-conventions.md"
+          }
+        },
+        {
+          "type": "text",
+          "text": "Let me read the 2026-06-23 note and check what other diary notes exist for context."
+        }
+      ],
+      "timestamp": "2026-06-25T13:57:19.622Z"
+    },
+    {
+      "id": "b896c6b4-c670-4344-abc3-d99c89d728e9",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_0155U32zq1o6DsbzKspRBV4j",
+          "title": "Read Дневник/Frontend-intern/2026-06-23.md",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "line": 1,
+              "path": "/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript/Дневник/Frontend-intern/2026-06-23.md"
+            }
+          ],
+          "rawInput": {
+            "file_path": "/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript/Дневник/Frontend-intern/2026-06-23.md"
+          }
+        }
+      ],
+      "timestamp": "2026-06-25T13:57:27.334Z"
+    },
+    {
+      "id": "46915e3a-1c42-4a74-b92c-595f65915e53",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01LgfTiWdbAYj7LCEzRV892u",
+          "title": "ls -la \"/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript/Дневник/Frontend-intern/\"",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "command": "ls -la \"/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript/Дневник/Frontend-intern/\"",
+            "description": "List diary notes in Frontend-intern folder"
+          }
+        },
+        {
+          "type": "text",
+          "text": "Now I understand the pattern. Let me check what React-related notes and stage notes exist in the vault so my wiki-links resolve correctly."
+        }
+      ],
+      "timestamp": "2026-06-25T13:57:28.278Z"
+    },
+    {
+      "id": "3529e034-c3d1-4bd7-97b3-e9aa277c4131",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01GUuuk3DCh7a9B8sDo91spf",
+          "title": "cd \"/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript\" && find . -path ./.obsidian -prune -o -name \"*.md\" -print | grep -iE \"react|junior|intern|компонент|state|hook\" 2>/dev/null",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "command": "cd \"/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript\" && find . -path ./.obsidian -prune -o -name \"*.md\" -print | grep -iE \"react|junior|intern|компонент|state|hook\" 2>/dev/null",
+            "description": "Find React, stage, and component-related notes"
+          }
+        }
+      ],
+      "timestamp": "2026-06-25T13:57:43.261Z"
+    },
+    {
+      "id": "021253ec-ecaa-42ae-9986-dd9cbfeef673",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01SHSWhMueWeBBub4433r9RU",
+          "title": "cd \"/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript\" && grep -rliE \"react\" --include=\"*.md\" . 2>/dev/null | grep -v \".obsidian\"",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "command": "cd \"/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript\" && grep -rliE \"react\" --include=\"*.md\" . 2>/dev/null | grep -v \".obsidian\"",
+            "description": "Find notes mentioning React"
+          }
+        },
+        {
+          "type": "text",
+          "text": "There's a dedicated React topic note and a Junior+ stage note. Let me read both to align my content and use correct wiki-links."
+        }
+      ],
+      "timestamp": "2026-06-25T13:57:45.671Z"
+    },
+    {
+      "id": "17f0c37e-7064-4a8e-8c2a-31609b230638",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01EUZfQG5pKwah85hWZ4w8kn",
+          "title": "Read Frontend/Темы/React и экосистема.md",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "line": 1,
+              "path": "/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript/Frontend/Темы/React и экосистема.md"
+            }
+          ],
+          "rawInput": {
+            "file_path": "/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript/Frontend/Темы/React и экосистема.md"
+          }
+        }
+      ],
+      "timestamp": "2026-06-25T13:57:54.116Z"
+    },
+    {
+      "id": "9f070c94-2b91-4111-9850-11819e3643a8",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_016CS8UCH2SiguNWkQ3xcJUm",
+          "title": "Read Frontend/Этапы/Frontend · Junior+.md",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "line": 1,
+              "path": "/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript/Frontend/Этапы/Frontend · Junior+.md"
+            }
+          ],
+          "rawInput": {
+            "file_path": "/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript/Frontend/Этапы/Frontend · Junior+.md"
+          }
+        },
+        {
+          "type": "text",
+          "text": "Let me check the master skills checklist to see how React is listed (the daily notes mirror its numbered items)."
+        }
+      ],
+      "timestamp": "2026-06-25T13:57:55.093Z"
+    },
+    {
+      "id": "c921da1d-09b4-40c6-92b2-7a642edc0710",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01GoMw4n2HoixqkRWeWL5uyi",
+          "title": "Read Frontend/Frontend — чеклист навыков.md",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "line": 1,
+              "path": "/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript/Frontend/Frontend — чеклист навыков.md"
+            }
+          ],
+          "rawInput": {
+            "file_path": "/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript/Frontend/Frontend — чеклист навыков.md"
+          }
+        },
+        {
+          "type": "text",
+          "text": "I now have everything I need. The master checklist places React across 🟡 Junior and 🟠 Junior+, with specific phrasings I'll mirror. I'll structure the note like 2026-06-23 (checklist + level breakdown + detailed \"Что я прочитал и освоил\" sections with a final summary)."
+        }
+      ],
+      "timestamp": "2026-06-25T14:00:14.485Z"
+    },
+    {
+      "id": "ff267064-5791-45f3-b322-10c2902ab55a",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_012VeMii3F58HBhHEsUk6zdB",
+          "title": "Write Дневник/Frontend-intern/2026-06-25.md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript/Дневник/Frontend-intern/2026-06-25.md",
+              "newText": "## ✅ Что освоить\n\n No newline at end of file\n### React → [[React и экосистема]]\n\n- [x] React до уровня junior+ (JSX, компоненты, хуки, состояние, роутинг, оптимизация) → см. ниже\n\n## Что должен прочитать и освоить\n### 🟡 Junior → [[Frontend · Junior]]\n- React: компоненты, `useState`, `useEffect`, списки, формы.\n- JSX, пропсы, условный рендеринг, обработка событий.\n- Подъём состояния (lifting state up).\n- React Router, запросы к API в компоненте (loading/error/success).\n- Создание проекта через Vite.\n### 🟠 Junior+ → [[Frontend · Junior+]]\n- Хуки: `useRef`, `useMemo`, `useCallback`, `useReducer`, `useContext`.\n- Кастомные хуки — выносим и переиспользуем логику.\n- Правила хуков, массив зависимостей, ловушки `useEffect`.\n- Серверное состояние: **TanStack Query**.\n- Клиентское состояние: **Zustand** или **Redux Toolkit**.\n- Оптимизация ре-рендеров (`memo`, мемоизация).\n\n## Что я прочитал и освоил\n\n### 1. Что такое React и зачем он нужен\n\n**Проблема чистого JS:** когда UI сложный, ты вручную находишь элементы (`document.querySelector`), меняешь их (`el.textContent = ...`) и следишь, чтобы DOM и данные не разъехались. Это **императивный** подход — ты описываешь, *как* менять.\n\n**React — это библиотека для построения UI.** Подход **декларативный**: ты описываешь, *что* должно быть на экране для текущих данных, а React сам приводит DOM в это состояние.\n\nИдея в одной формуле: **UI = f(state)**. Интерфейс — это функция от состояния. Поменялось состояние → React перерисовал что нужно.\n\nТри кита React:\n- **Компоненты** — UI собирается из переиспользуемых кусочков.\n- **Состояние (state)** — данные, от которых зависит, что нарисовано.\n- **Реактивность** — ты меняешь состояние, а не DOM руками; React обновит DOM сам.\n\n### 2. JSX — что это и как превращается в JS\n\n**JSX** — синтаксис, похожий на HTML, прямо внутри JS. Это **не** строка и не HTML — это синтаксический сахар, который сборщик (Vite/Babel) превращает в вызовы функций.\n\n```jsx\nconst el = <h1 className=\"title\">Привет, {name}</h1>;\n// превращается в:\nconst el = React.createElement('h1', { className: 'title' }, 'Привет, ', name);\n```\n\nПравила JSX, на которых спотыкаются новички:\n- **Один корневой элемент** — оборачивай в `<div>` или пустой фрагмент `<>...</>`.\n- **`className`** вместо `class`, **`htmlFor`** вместо `for` (т.к. `class`/`for` заняты в JS).\n- Атрибуты и стиль — в **camelCase**: `onClick`, `tabIndex`, `style={{ marginTop: 8 }}`.\n- **`{...}`** — окно в JS: можно вставить любое **выражение** (не оператор): `{user.name}`, `{2 + 2}`, `{isOk ? 'да' : 'нет'}`.\n\n### 3. Компоненты и пропсы\n\n**Компонент** — функция, которая возвращает JSX. Имя — **с большой буквы** (так React отличает компонент от обычного тега).\n\n```jsx\nfunction Welcome(props) {\n  return <h1>Привет, {props.name}</h1>;\n}\n// использование, как тег:\n<Welcome name=\"Аня\" />\n```\n\n**Пропсы (props)** — аргументы компонента, данные **сверху вниз** (от родителя к ребёнку). Внутри компонента пропсы **только для чтения** (immutable) — мутировать нельзя.\n\n```jsx\nfunction Card({ title, children }) {   // деструктуризация пропсов\n  return (\n    <div className=\"card\">\n      <h2>{title}</h2>\n      {children}             {/* всё, что между тегами компонента */}\n    </div>\n  );\n}\n\n<Card title=\"Профиль\">\n  <p>Контент внутри попадёт в children</p>\n</Card>\n```\n\n**Поток данных однонаправленный (one-way):** данные текут вниз через пропсы. Чтобы ребёнок «сообщил наверх», родитель передаёт ему **функцию-колбэк**.\n\n### 4. Состояние: useState\n\n**Состояние (state)** — данные компонента, которые меняются со временем и при изменении вызывают **ре-рендер** (перерисовку). Обычная переменная не подойдёт — React не узнает, что её надо перерисовать.\n\n```jsx\nimport { useState } from 'react';\n\nfunction Counter() {\n  const [count, setCount] = useState(0); // [значение, сеттер], начальное 0\n\n  return (\n    <button onClick={() => setCount(count + 1)}>\n      Кликов: {count}\n    </button>\n  );\n}\n```\n\nКлючевые правила:\n- **Не меняй состояние напрямую** (`count++`) — только через сеттер `setCount`. Иначе ре-рендера не будет.\n- **Обновление асинхронно**: после `setCount` переменная `count` в этом же рендере не изменится — новое значение придёт в следующем рендере.\n- Если новое значение зависит от старого — передавай **функцию**: `setCount(c => c + 1)` (безопасно при нескольких обновлениях подряд).\n- Состояние-объект/массив меняй **иммутабельно** — создавай новый: `setUser({ ...user, name: 'Аня' })`.\n\n### 5. Рендеринг списков и условный рендеринг\n\n**Список** — через `.map()`, каждый элемент получает **уникальный `key`**:\n\n```jsx\n{users.map(u => <li key={u.id}>{u.name}</li>)}\n```\n\n> [!warning] key — не для красоты\n> `key` нужен React, чтобы понимать, какой элемент изменился/добавился/удалился. Бери **стабильный id**, а не `index` — `key={index}` ломает состояние и порядок при вставке/удалении/сортировке.\n\n**Условный рендеринг** — обычные JS-выражения:\n\n```jsx\n{isLoading && <Spinner />}              // && — показать, если true\n{user ? <Profile /> : <LoginButton />}  // тернарник — выбор из двух\n```\n\n### 6. События и формы (controlled inputs)\n\nСобытия — в camelCase, в `{}` передаём **функцию** (а не вызываем её):\n\n```jsx\n<button onClick={handleClick}>OK</button>      // правильно\n<button onClick={handleClick()}>OK</button>     // ОШИБКА: вызовется при рендере\n```\n\n**Управляемый инпут (controlled)** — значение поля держит **состояние React**, а не сам DOM. Источник правды один — state.\n\n```jsx\nfunction Form() {\n  const [name, setName] = useState('');\n\n  return (\n    <form onSubmit={e => { e.preventDefault(); console.log(name); }}>\n      <input value={name} onChange={e => setName(e.target.value)} />\n    </form>\n  );\n}\n```\n\nСвязка: `value` ← state, `onChange` → обновляет state. `e.preventDefault()` в `onSubmit` — чтобы страница не перезагружалась.\n\n### 7. Подъём состояния (lifting state up)\n\nКогда **двум соседним компонентам** нужны одни данные — состояние поднимают к их **общему родителю** и передают вниз: значение — пропсом, изменение — колбэком.\n\n```jsx\nfunction Parent() {\n  const [value, setValue] = useState('');\n  return (\n    <>\n      <Input value={value} onChange={setValue} />  {/* вниз: данные + колбэк */}\n      <Preview value={value} />                    {/* вниз: те же данные */}\n    </>\n  );\n}\n```\n\nПравило: **состояние живёт на ближайшем общем предке** тех, кому оно нужно. Данные — вниз, события — вверх.\n\n### 8. useEffect — побочные эффекты\n\n**Побочный эффект** — всё, что выходит за рамки «посчитать JSX из пропсов и состояния»: запрос к API, таймер, подписка, ручная работа с DOM. Для этого — `useEffect`.\n\n```jsx\nuseEffect(() => {\n  // эффект: выполнится после рендера\n  const id = setInterval(tick, 1000);\n\n  return () => clearInterval(id); // очистка: перед след. эффектом и при размонтировании\n}, [/* зависимости */]);\n```\n\n**Массив зависимостей** решает, *когда* эффект перезапускается:\n- `[]` — **один раз** после монтирования (и очистка при размонтировании).\n- `[a, b]` — после каждого рендера, где изменились `a` или `b`.\n- нет массива — после **каждого** рендера (нужно редко).\n\n> [!warning] Главные ловушки useEffect\n> - **Не врать в зависимостях**: всё, что используешь внутри, должно быть в массиве (иначе словишь «устаревшее» значение — stale closure).\n> - **Очистка обязательна** для таймеров/подписок/запросов — иначе утечки и гонки.\n> - **Лишний эффект** — частая ошибка: если значение можно **вычислить при рендере**, эффект не нужен (см. §11 про `useMemo`).\n\n### 9. Запросы к API и старт проекта (Vite)\n\nЗагрузка данных — классический эффект. Держим три состояния: **loading / error / data (success)**.\n\n```jsx\nfunction Users() {\n  const [data, setData] = useState(null);\n  const [loading, setLoading] = useState(true);\n  const [error, setError] = useState(null);\n\n  useEffect(() => {\n    let alive = true;                       // защита от гонки\n    fetch('/api/users')\n      .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })\n      .then(d => alive && setData(d))\n      .catch(e => alive && setError(String(e)))\n      .finally(() => alive && setLoading(false));\n    return () => { alive = false; };        // игнорируем ответ размонтированного компонента\n  }, []);\n\n  if (loading) return <p>Загрузка…</p>;\n  if (error)   return <p>Ошибка: {error}</p>;\n  return <ul>{data.map(u => <li key={u.id}>{u.name}</li>)}</ul>;\n}\n```\n\n**Vite** — современный сборщик и дев-сервер, стандарт для старта React-проекта:\n\n```bash\nnpm create vite@latest my-app -- --template react-ts\ncd my-app && npm install && npm run dev\n```\n\n(флаг `alive` — это ручной способ; на junior+ эту боль забирает TanStack Query, см. §15.)\n\n### 10. React Router — навигация\n\nВ SPA страница **не перезагружается** — роутер подменяет компоненты по URL на клиенте.\n\n```jsx\nimport { BrowserRouter, Routes, Route, Link } from 'react-router-dom';\n\n<BrowserRouter>\n  <nav><Link to=\"/\">Главная</Link> <Link to=\"/users/42\">Профиль</Link></nav>\n  <Routes>\n    <Route path=\"/\" element={<Home />} />\n    <Route path=\"/users/:id\" element={<User />} />   {/* :id — динамический параметр */}\n    <Route path=\"*\" element={<NotFound />} />          {/* 404 */}\n  </Routes>\n</BrowserRouter>\n```\n\n`<Link>` вместо `<a>` (чтобы не было перезагрузки), `useParams()` достаёт `:id`, `useNavigate()` — переход из кода.\n\n### 11. Хуки глубже: useRef, useMemo, useCallback, useReducer\n\nЭто ядро Junior+. Коротко — зачем каждый:\n\n**`useRef`** — «коробка», которая **переживает ре-рендеры**, но при изменении **НЕ** вызывает перерисовку. Два применения: ссылка на DOM-элемент и хранение мутабельного значения (id таймера, предыдущее значение).\n\n```jsx\nconst inputRef = useRef(null);\n// ...\n<input ref={inputRef} />\n<button onClick={() => inputRef.current.focus()}>В фокус</button>\n```\n\n**`useMemo`** — **кэширует результат вычисления** между рендерами; пересчитывает, только если изменились зависимости. Для тяжёлых вычислений.\n\n```jsx\nconst sorted = useMemo(() => bigList.sort(cmp), [bigList]); // не сортируем на каждый рендер\n```\n\n**`useCallback`** — то же, но **кэширует саму функцию** (чтобы не создавать новую ссылку каждый рендер). Нужен, когда функция уходит в `memo`-компонент или в зависимости другого хука. `useCallback(fn, dep)` ≈ `useMemo(() => fn, dep)`.\n\n**`useReducer`** — альтернатива `useState` для **сложного состояния** с несколькими связанными полями/переходами. Логика — в чистой функции-редьюсере (как в Redux).\n\n```jsx\nfunction reducer(state, action) {\n  switch (action.type) {\n    case 'inc':   return { count: state.count + 1 };\n    case 'reset': return { count: 0 };\n    default:      return state;\n  }\n}\nconst [state, dispatch] = useReducer(reducer, { count: 0 });\ndispatch({ type: 'inc' });\n```\n\n### 12. useContext — данные «сквозь» дерево\n\n**Проблема prop drilling:** пропс приходится прокидывать через 5 компонентов, которым он не нужен, ради шестого. **Контекст** даёт «телепорт» — значение доступно любому потомку без передачи через пропсы.\n\n```jsx\nconst ThemeContext = createContext('light');\n\nfunction App() {\n  return (\n    <ThemeContext.Provider value=\"dark\">   {/* раздаём значение поддереву */}\n      <Toolbar />\n    </ThemeContext.Provider>\n  );\n}\n\nfunction Button() {\n  const theme = useContext(ThemeContext);  // берём напрямую, без пропсов\n  return <button className={theme}>OK</button>;\n}\n```\n\nКонтекст хорош для **редко меняющихся** глобальных вещей: тема, локаль, текущий пользователь. Для часто меняющегося состояния — стейт-менеджер (§15), иначе перерисуется всё поддерево.\n\n### 13. Кастомные хуки\n\n**Кастомный хук** — функция с именем на `use...`, которая **переиспользует логику** на хуках. UI остаётся чистым, логика — отдельно. Это главный способ DRY в React.\n\n```jsx\nfunction useToggle(initial = false) {\n  const [on, setOn] = useState(initial);\n  const toggle = useCallback(() => setOn(o => !o), []);\n  return [on, toggle];\n}\n\n// в компоненте:\nconst [isOpen, toggleOpen] = useToggle();\n```\n\nМожно вынести загрузку данных (`useFetch`), debounce (`useDebounce`), отслеживание размера окна (`useWindowSize`) — всё, что повторяется.\n\n### 14. Оптимизация ре-рендеров\n\nКомпонент перерисовывается, когда: меняется его **state**, меняются **пропсы** или перерисовался **родитель**. Лишние ре-рендеры — частая причина тормозов.\n\nИнструменты (применять **по факту проблемы**, не везде подряд):\n- **`React.memo(Component)`** — пропускает ре-рендер, если пропсы не изменились (поверхностно).\n- **`useMemo`** — не пересоздавать тяжёлые значения / объекты-пропсы.\n- **`useCallback`** — не пересоздавать функции-пропсы (иначе `memo` бесполезен — новая ссылка каждый раз).\n\n```jsx\nconst Child = React.memo(function Child({ onClick }) { /* ... */ });\n\nfunction Parent() {\n  const handle = useCallback(() => {/* ... */}, []); // стабильная ссылка → memo сработает\n  return <Child onClick={handle} />;\n}\n```\n\n> [!tip] Не оптимизируй вслепую\n> `useMemo`/`useCallback` сами стоят памяти и усложняют код. Сначала измерь (React DevTools → Profiler), потом оптимизируй узкое место.\n\n### 15. Управление состоянием: серверное vs клиентское\n\nНа junior+ важно делить состояние на два вида — у них **разные инструменты**:\n\n| Вид | Что это | Чем управлять |\n| --- | --- | --- |\n| **Серверное** | данные с бэкенда (список юзеров, товары) | **TanStack Query** (React Query) |\n| **Клиентское** | UI-состояние (тема, корзина, модалки) | **Zustand** / **Redux Toolkit** |\n\n**TanStack Query** убирает ручную возню с `loading/error` и `useEffect`-загрузкой: даёт **кэш**, авто-**рефетч**, дедупликацию и инвалидацию.\n\n```jsx\nconst { data, isLoading, error } = useQuery({\n  queryKey: ['users'],\n  queryFn: () => fetch('/api/users').then(r => r.json()),\n});\n```\n\n**Zustand** — минималистичный клиентский стор без бойлерплейта:\n\n```jsx\nconst useStore = create(set => ({\n  count: 0,\n  inc: () => set(s => ({ count: s.count + 1 })),\n}));\nconst count = useStore(s => s.count); // подписка только на нужный кусок\n```\n\nПравило джуна+: **не пихай серверные данные в Redux/Zustand**. Сервер → Query, клиент → Zustand/RTK. Контекст — для редко меняющегося (тема/локаль/auth).\n\n### 16. Правила хуков (Rules of Hooks)\n\nХуки (`useState`, `useEffect`, …) работают только при двух условиях:\n1. **Вызывать только на верхнем уровне** компонента или кастомного хука — **НЕ** внутри условий, циклов, вложенных функций. React связывает хуки с компонентом **по порядку вызова**; условие сдвинет порядок → всё сломается.\n2. **Вызывать только из React-функций** — компонентов или других хуков (не из обычных функций).\n\n```jsx\n// ❌ нельзя\nif (user) { const [x, setX] = useState(0); }\n\n// ✅ можно\nconst [x, setX] = useState(0);\nif (user) { /* используем x */ }\n```\n\nESLint-плагин `eslint-plugin-react-hooks` ловит нарушения и подсказывает зависимости эффектов.\n\n### 17. Что запомнить\n\n- **UI = f(state)**: описываешь, *что* нарисовать для данных, React сам обновляет DOM.\n- **JSX** — сахар над `createElement`; `className`, camelCase, один корень, `{выражение}`.\n- **Пропсы — вниз и только для чтения**, события — вверх через колбэки (one-way data flow).\n- **Состояние — через сеттер и иммутабельно**; обновление асинхронно; новое от старого — через функцию.\n- **`key` — стабильный id**, не index.\n- **Управляемые инпуты**: источник правды — это state (`value` + `onChange`).\n- **`useEffect`** — для побочных эффектов; честный массив зависимостей + очистка; лишний эффект — частая ошибка.\n- Junior+ хуки: `useRef` (без ре-рендера), `useMemo`/`useCallback` (кэш значения/функции), `useReducer` (сложное состояние), `useContext` (без prop drilling).\n- **Кастомные хуки** — переиспользование логики (DRY).\n- **Оптимизация (`memo`/`useMemo`/`useCallback`) — по факту проблемы**, не вслепую.\n- **Серверное состояние → TanStack Query**, клиентское → Zustand/Redux Toolkit. Не смешивай.\n- **Правила хуков**: только на верхнем уровне и только из React-функций.",
+              "oldText": "## ✅ Что освоить\n\n- [ ] \n No newline at end of file"
+            }
+          ],
+          "locations": [
+            {
+              "line": 1,
+              "path": "/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript/Дневник/Frontend-intern/2026-06-25.md"
+            }
+          ],
+          "rawInput": {
+            "file_path": "/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript/Дневник/Frontend-intern/2026-06-25.md",
+            "content": "## ✅ Что освоить\n\n### React → [[React и экосистема]]\n\n- [x] React до уровня junior+ (JSX, компоненты, хуки, состояние, роутинг, оптимизация) → см. ниже\n\n## Что должен прочитать и освоить\n### 🟡 Junior → [[Frontend · Junior]]\n- React: компоненты, `useState`, `useEffect`, списки, формы.\n- JSX, пропсы, условный рендеринг, обработка событий.\n- Подъём состояния (lifting state up).\n- React Router, запросы к API в компоненте (loading/error/success).\n- Создание проекта через Vite.\n### 🟠 Junior+ → [[Frontend · Junior+]]\n- Хуки: `useRef`, `useMemo`, `useCallback`, `useReducer`, `useContext`.\n- Кастомные хуки — выносим и переиспользуем логику.\n- Правила хуков, массив зависимостей, ловушки `useEffect`.\n- Серверное состояние: **TanStack Query**.\n- Клиентское состояние: **Zustand** или **Redux Toolkit**.\n- Оптимизация ре-рендеров (`memo`, мемоизация).\n\n## Что я прочитал и освоил\n\n### 1. Что такое React и зачем он нужен\n\n**Проблема чистого JS:** когда UI сложный, ты вручную находишь элементы (`document.querySelector`), меняешь их (`el.textContent = ...`) и следишь, чтобы DOM и данные не разъехались. Это **императивный** подход — ты описываешь, *как* менять.\n\n**React — это библиотека для построения UI.** Подход **декларативный**: ты описываешь, *что* должно быть на экране для текущих данных, а React сам приводит DOM в это состояние.\n\nИдея в одной формуле: **UI = f(state)**. Интерфейс — это функция от состояния. Поменялось состояние → React перерисовал что нужно.\n\nТри кита React:\n- **Компоненты** — UI собирается из переиспользуемых кусочков.\n- **Состояние (state)** — данные, от которых зависит, что нарисовано.\n- **Реактивность** — ты меняешь состояние, а не DOM руками; React обновит DOM сам.\n\n### 2. JSX — что это и как превращается в JS\n\n**JSX** — синтаксис, похожий на HTML, прямо внутри JS. Это **не** строка и не HTML — это синтаксический сахар, который сборщик (Vite/Babel) превращает в вызовы функций.\n\n```jsx\nconst el = <h1 className=\"title\">Привет, {name}</h1>;\n// превращается в:\nconst el = React.createElement('h1', { className: 'title' }, 'Привет, ', name);\n```\n\nПравила JSX, на которых спотыкаются новички:\n- **Один корневой элемент** — оборачивай в `<div>` или пустой фрагмент `<>...</>`.\n- **`className`** вместо `class`, **`htmlFor`** вместо `for` (т.к. `class`/`for` заняты в JS).\n- Атрибуты и стиль — в **camelCase**: `onClick`, `tabIndex`, `style={{ marginTop: 8 }}`.\n- **`{...}`** — окно в JS: можно вставить любое **выражение** (не оператор): `{user.name}`, `{2 + 2}`, `{isOk ? 'да' : 'нет'}`.\n\n### 3. Компоненты и пропсы\n\n**Компонент** — функция, которая возвращает JSX. Имя — **с большой буквы** (так React отличает компонент от обычного тега).\n\n```jsx\nfunction Welcome(props) {\n  return <h1>Привет, {props.name}</h1>;\n}\n// использование, как тег:\n<Welcome name=\"Аня\" />\n```\n\n**Пропсы (props)** — аргументы компонента, данные **сверху вниз** (от родителя к ребёнку). Внутри компонента пропсы **только для чтения** (immutable) — мутировать нельзя.\n\n```jsx\nfunction Card({ title, children }) {   // деструктуризация пропсов\n  return (\n    <div className=\"card\">\n      <h2>{title}</h2>\n      {children}             {/* всё, что между тегами компонента */}\n    </div>\n  );\n}\n\n<Card title=\"Профиль\">\n  <p>Контент внутри попадёт в children</p>\n</Card>\n```\n\n**Поток данных однонаправленный (one-way):** данные текут вниз через пропсы. Чтобы ребёнок «сообщил наверх», родитель передаёт ему **функцию-колбэк**.\n\n### 4. Состояние: useState\n\n**Состояние (state)** — данные компонента, которые меняются со временем и при изменении вызывают **ре-рендер** (перерисовку). Обычная переменная не подойдёт — React не узнает, что её надо перерисовать.\n\n```jsx\nimport { useState } from 'react';\n\nfunction Counter() {\n  const [count, setCount] = useState(0); // [значение, сеттер], начальное 0\n\n  return (\n    <button onClick={() => setCount(count + 1)}>\n      Кликов: {count}\n    </button>\n  );\n}\n```\n\nКлючевые правила:\n- **Не меняй состояние напрямую** (`count++`) — только через сеттер `setCount`. Иначе ре-рендера не будет.\n- **Обновление асинхронно**: после `setCount` переменная `count` в этом же рендере не изменится — новое значение придёт в следующем рендере.\n- Если новое значение зависит от старого — передавай **функцию**: `setCount(c => c + 1)` (безопасно при нескольких обновлениях подряд).\n- Состояние-объект/массив меняй **иммутабельно** — создавай новый: `setUser({ ...user, name: 'Аня' })`.\n\n### 5. Рендеринг списков и условный рендеринг\n\n**Список** — через `.map()`, каждый элемент получает **уникальный `key`**:\n\n```jsx\n{users.map(u => <li key={u.id}>{u.name}</li>)}\n```\n\n> [!warning] key — не для красоты\n> `key` нужен React, чтобы понимать, какой элемент изменился/добавился/удалился. Бери **стабильный id**, а не `index` — `key={index}` ломает состояние и порядок при вставке/удалении/сортировке.\n\n**Условный рендеринг** — обычные JS-выражения:\n\n```jsx\n{isLoading && <Spinner />}              // && — показать, если true\n{user ? <Profile /> : <LoginButton />}  // тернарник — выбор из двух\n```\n\n### 6. События и формы (controlled inputs)\n\nСобытия — в camelCase, в `{}` передаём **функцию** (а не вызываем её):\n\n```jsx\n<button onClick={handleClick}>OK</button>      // правильно\n<button onClick={handleClick()}>OK</button>     // ОШИБКА: вызовется при рендере\n```\n\n**Управляемый инпут (controlled)** — значение поля держит **состояние React**, а не сам DOM. Источник правды один — state.\n\n```jsx\nfunction Form() {\n  const [name, setName] = useState('');\n\n  return (\n    <form onSubmit={e => { e.preventDefault(); console.log(name); }}>\n      <input value={name} onChange={e => setName(e.target.value)} />\n    </form>\n  );\n}\n```\n\nСвязка: `value` ← state, `onChange` → обновляет state. `e.preventDefault()` в `onSubmit` — чтобы страница не перезагружалась.\n\n### 7. Подъём состояния (lifting state up)\n\nКогда **двум соседним компонентам** нужны одни данные — состояние поднимают к их **общему родителю** и передают вниз: значение — пропсом, изменение — колбэком.\n\n```jsx\nfunction Parent() {\n  const [value, setValue] = useState('');\n  return (\n    <>\n      <Input value={value} onChange={setValue} />  {/* вниз: данные + колбэк */}\n      <Preview value={value} />                    {/* вниз: те же данные */}\n    </>\n  );\n}\n```\n\nПравило: **состояние живёт на ближайшем общем предке** тех, кому оно нужно. Данные — вниз, события — вверх.\n\n### 8. useEffect — побочные эффекты\n\n**Побочный эффект** — всё, что выходит за рамки «посчитать JSX из пропсов и состояния»: запрос к API, таймер, подписка, ручная работа с DOM. Для этого — `useEffect`.\n\n```jsx\nuseEffect(() => {\n  // эффект: выполнится после рендера\n  const id = setInterval(tick, 1000);\n\n  return () => clearInterval(id); // очистка: перед след. эффектом и при размонтировании\n}, [/* зависимости */]);\n```\n\n**Массив зависимостей** решает, *когда* эффект перезапускается:\n- `[]` — **один раз** после монтирования (и очистка при размонтировании).\n- `[a, b]` — после каждого рендера, где изменились `a` или `b`.\n- нет массива — после **каждого** рендера (нужно редко).\n\n> [!warning] Главные ловушки useEffect\n> - **Не врать в зависимостях**: всё, что используешь внутри, должно быть в массиве (иначе словишь «устаревшее» значение — stale closure).\n> - **Очистка обязательна** для таймеров/подписок/запросов — иначе утечки и гонки.\n> - **Лишний эффект** — частая ошибка: если значение можно **вычислить при рендере**, эффект не нужен (см. §11 про `useMemo`).\n\n### 9. Запросы к API и старт проекта (Vite)\n\nЗагрузка данных — классический эффект. Держим три состояния: **loading / error / data (success)**.\n\n```jsx\nfunction Users() {\n  const [data, setData] = useState(null);\n  const [loading, setLoading] = useState(true);\n  const [error, setError] = useState(null);\n\n  useEffect(() => {\n    let alive = true;                       // защита от гонки\n    fetch('/api/users')\n      .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })\n      .then(d => alive && setData(d))\n      .catch(e => alive && setError(String(e)))\n      .finally(() => alive && setLoading(false));\n    return () => { alive = false; };        // игнорируем ответ размонтированного компонента\n  }, []);\n\n  if (loading) return <p>Загрузка…</p>;\n  if (error)   return <p>Ошибка: {error}</p>;\n  return <ul>{data.map(u => <li key={u.id}>{u.name}</li>)}</ul>;\n}\n```\n\n**Vite** — современный сборщик и дев-сервер, стандарт для старта React-проекта:\n\n```bash\nnpm create vite@latest my-app -- --template react-ts\ncd my-app && npm install && npm run dev\n```\n\n(флаг `alive` — это ручной способ; на junior+ эту боль забирает TanStack Query, см. §15.)\n\n### 10. React Router — навигация\n\nВ SPA страница **не перезагружается** — роутер подменяет компоненты по URL на клиенте.\n\n```jsx\nimport { BrowserRouter, Routes, Route, Link } from 'react-router-dom';\n\n<BrowserRouter>\n  <nav><Link to=\"/\">Главная</Link> <Link to=\"/users/42\">Профиль</Link></nav>\n  <Routes>\n    <Route path=\"/\" element={<Home />} />\n    <Route path=\"/users/:id\" element={<User />} />   {/* :id — динамический параметр */}\n    <Route path=\"*\" element={<NotFound />} />          {/* 404 */}\n  </Routes>\n</BrowserRouter>\n```\n\n`<Link>` вместо `<a>` (чтобы не было перезагрузки), `useParams()` достаёт `:id`, `useNavigate()` — переход из кода.\n\n### 11. Хуки глубже: useRef, useMemo, useCallback, useReducer\n\nЭто ядро Junior+. Коротко — зачем каждый:\n\n**`useRef`** — «коробка», которая **переживает ре-рендеры**, но при изменении **НЕ** вызывает перерисовку. Два применения: ссылка на DOM-элемент и хранение мутабельного значения (id таймера, предыдущее значение).\n\n```jsx\nconst inputRef = useRef(null);\n// ...\n<input ref={inputRef} />\n<button onClick={() => inputRef.current.focus()}>В фокус</button>\n```\n\n**`useMemo`** — **кэширует результат вычисления** между рендерами; пересчитывает, только если изменились зависимости. Для тяжёлых вычислений.\n\n```jsx\nconst sorted = useMemo(() => bigList.sort(cmp), [bigList]); // не сортируем на каждый рендер\n```\n\n**`useCallback`** — то же, но **кэширует саму функцию** (чтобы не создавать новую ссылку каждый рендер). Нужен, когда функция уходит в `memo`-компонент или в зависимости другого хука. `useCallback(fn, dep)` ≈ `useMemo(() => fn, dep)`.\n\n**`useReducer`** — альтернатива `useState` для **сложного состояния** с несколькими связанными полями/переходами. Логика — в чистой функции-редьюсере (как в Redux).\n\n```jsx\nfunction reducer(state, action) {\n  switch (action.type) {\n    case 'inc':   return { count: state.count + 1 };\n    case 'reset': return { count: 0 };\n    default:      return state;\n  }\n}\nconst [state, dispatch] = useReducer(reducer, { count: 0 });\ndispatch({ type: 'inc' });\n```\n\n### 12. useContext — данные «сквозь» дерево\n\n**Проблема prop drilling:** пропс приходится прокидывать через 5 компонентов, которым он не нужен, ради шестого. **Контекст** даёт «телепорт» — значение доступно любому потомку без передачи через пропсы.\n\n```jsx\nconst ThemeContext = createContext('light');\n\nfunction App() {\n  return (\n    <ThemeContext.Provider value=\"dark\">   {/* раздаём значение поддереву */}\n      <Toolbar />\n    </ThemeContext.Provider>\n  );\n}\n\nfunction Button() {\n  const theme = useContext(ThemeContext);  // берём напрямую, без пропсов\n  return <button className={theme}>OK</button>;\n}\n```\n\nКонтекст хорош для **редко меняющихся** глобальных вещей: тема, локаль, текущий пользователь. Для часто меняющегося состояния — стейт-менеджер (§15), иначе перерисуется всё поддерево.\n\n### 13. Кастомные хуки\n\n**Кастомный хук** — функция с именем на `use...`, которая **переиспользует логику** на хуках. UI остаётся чистым, логика — отдельно. Это главный способ DRY в React.\n\n```jsx\nfunction useToggle(initial = false) {\n  const [on, setOn] = useState(initial);\n  const toggle = useCallback(() => setOn(o => !o), []);\n  return [on, toggle];\n}\n\n// в компоненте:\nconst [isOpen, toggleOpen] = useToggle();\n```\n\nМожно вынести загрузку данных (`useFetch`), debounce (`useDebounce`), отслеживание размера окна (`useWindowSize`) — всё, что повторяется.\n\n### 14. Оптимизация ре-рендеров\n\nКомпонент перерисовывается, когда: меняется его **state**, меняются **пропсы** или перерисовался **родитель**. Лишние ре-рендеры — частая причина тормозов.\n\nИнструменты (применять **по факту проблемы**, не везде подряд):\n- **`React.memo(Component)`** — пропускает ре-рендер, если пропсы не изменились (поверхностно).\n- **`useMemo`** — не пересоздавать тяжёлые значения / объекты-пропсы.\n- **`useCallback`** — не пересоздавать функции-пропсы (иначе `memo` бесполезен — новая ссылка каждый раз).\n\n```jsx\nconst Child = React.memo(function Child({ onClick }) { /* ... */ });\n\nfunction Parent() {\n  const handle = useCallback(() => {/* ... */}, []); // стабильная ссылка → memo сработает\n  return <Child onClick={handle} />;\n}\n```\n\n> [!tip] Не оптимизируй вслепую\n> `useMemo`/`useCallback` сами стоят памяти и усложняют код. Сначала измерь (React DevTools → Profiler), потом оптимизируй узкое место.\n\n### 15. Управление состоянием: серверное vs клиентское\n\nНа junior+ важно делить состояние на два вида — у них **разные инструменты**:\n\n| Вид | Что это | Чем управлять |\n| --- | --- | --- |\n| **Серверное** | данные с бэкенда (список юзеров, товары) | **TanStack Query** (React Query) |\n| **Клиентское** | UI-состояние (тема, корзина, модалки) | **Zustand** / **Redux Toolkit** |\n\n**TanStack Query** убирает ручную возню с `loading/error` и `useEffect`-загрузкой: даёт **кэш**, авто-**рефетч**, дедупликацию и инвалидацию.\n\n```jsx\nconst { data, isLoading, error } = useQuery({\n  queryKey: ['users'],\n  queryFn: () => fetch('/api/users').then(r => r.json()),\n});\n```\n\n**Zustand** — минималистичный клиентский стор без бойлерплейта:\n\n```jsx\nconst useStore = create(set => ({\n  count: 0,\n  inc: () => set(s => ({ count: s.count + 1 })),\n}));\nconst count = useStore(s => s.count); // подписка только на нужный кусок\n```\n\nПравило джуна+: **не пихай серверные данные в Redux/Zustand**. Сервер → Query, клиент → Zustand/RTK. Контекст — для редко меняющегося (тема/локаль/auth).\n\n### 16. Правила хуков (Rules of Hooks)\n\nХуки (`useState`, `useEffect`, …) работают только при двух условиях:\n1. **Вызывать только на верхнем уровне** компонента или кастомного хука — **НЕ** внутри условий, циклов, вложенных функций. React связывает хуки с компонентом **по порядку вызова**; условие сдвинет порядок → всё сломается.\n2. **Вызывать только из React-функций** — компонентов или других хуков (не из обычных функций).\n\n```jsx\n// ❌ нельзя\nif (user) { const [x, setX] = useState(0); }\n\n// ✅ можно\nconst [x, setX] = useState(0);\nif (user) { /* используем x */ }\n```\n\nESLint-плагин `eslint-plugin-react-hooks` ловит нарушения и подсказывает зависимости эффектов.\n\n### 17. Что запомнить\n\n- **UI = f(state)**: описываешь, *что* нарисовать для данных, React сам обновляет DOM.\n- **JSX** — сахар над `createElement`; `className`, camelCase, один корень, `{выражение}`.\n- **Пропсы — вниз и только для чтения**, события — вверх через колбэки (one-way data flow).\n- **Состояние — через сеттер и иммутабельно**; обновление асинхронно; новое от старого — через функцию.\n- **`key` — стабильный id**, не index.\n- **Управляемые инпуты**: источник правды — это state (`value` + `onChange`).\n- **`useEffect`** — для побочных эффектов; честный массив зависимостей + очистка; лишний эффект — частая ошибка.\n- Junior+ хуки: `useRef` (без ре-рендера), `useMemo`/`useCallback` (кэш значения/функции), `useReducer` (сложное состояние), `useContext` (без prop drilling).\n- **Кастомные хуки** — переиспользование логики (DRY).\n- **Оптимизация (`memo`/`useMemo`/`useCallback`) — по факту проблемы**, не вслепую.\n- **Серверное состояние → TanStack Query**, клиентское → Zustand/Redux Toolkit. Не смешивай.\n- **Правила хуков**: только на верхнем уровне и только из React-функций.\n"
+          }
+        },
+        {
+          "type": "text",
+          "text": "Готово. Заполнил `2026-06-25.md` по аналогии с заметками за 23 и 24 июня.\n\nСтруктура (как в примерах):\n- **✅ Что освоить** — чек-отметка React до junior+ со ссылкой на `[[React и экосистема]]`.\n- **Что должен прочитать и освоить** — разбивка по уровням 🟡 Junior / 🟠 Junior+ со ссылками на этапы `[[Frontend · Junior]]` и `[[Frontend · Junior+]]` (формулировки взял из чеклиста навыков, чтобы совпадало).\n- **Что я прочитал и освоил** — 17 пронумерованных разделов с тем же стилем подачи (жирные термины, аналогии, код, таблицы, коллауты `[!warning]`/`[!tip]`), последний раздел — «Что запомнить».\n\nПокрытие — оба уровня:\n\n**Junior (§1–10):** что такое React и `UI = f(state)`, JSX, компоненты и пропсы, `useState`, списки и `key`, события и controlled inputs, подъём состояния, `useEffect`, запросы к API + Vite, React Router.\n\n**Junior+ (§11–16):** `useRef`/`useMemo`/`useCallback`/`useReducer`, `useContext` и prop drilling, кастомные хуки, оптимизация ре-рендеров (`memo`), серверное vs клиентское состояние (TanStack Query / Zustand / Redux Toolkit), правила хуков.\n\nВсе вики-ссылки (`[[React и экосистема]]`, `[[Frontend · Junior]]`, `[[Frontend · Junior+]]`) проверил — файлы существуют, ссылки рабочие."
+        }
+      ],
+      "timestamp": "2026-06-25T14:00:28.783Z"
+    }
+  ],
+  "savedAt": "2026-06-25T14:01:58.197Z"
+}
