@@ -56,6 +56,14 @@
   },
   "savedSessions": [
     {
+      "sessionId": "ef885e06-9b9a-47de-af58-c2a6e3b7ee11",
+      "agentId": "claude-code-acp",
+      "cwd": "/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript",
+      "title": "Напиши здесь всю базу по программированию для джун...",
+      "createdAt": "2026-06-30T17:04:29.721Z",
+      "updatedAt": "2026-06-30T17:04:29.721Z"
+    },
+    {
       "sessionId": "cb434598-d870-4606-8211-21bde9289f27",
       "agentId": "claude-code-acp",
       "cwd": "/mnt/HDD/Obsidian/FrontEnd RoadMap and Manuscript",
